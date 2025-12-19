@@ -1,18 +1,12 @@
 🚗 QBCore Multi-Location Vehicle Repair
 
-<p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Framework-QBCore-blue%3Fstyle%3Dfor-the-badge" alt="QBCore">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Category-Script-orange%3Fstyle%3Dfor-the-badge" alt="Script">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Patched-success%3Fstyle%3Dfor-the-badge" alt="Status">
-</p>
 
 📺 Preview
 
 Check out the script in action:
 
-https://www.google.com/search?q=https://github.com/user-attachments/assets/533ab5ec-7d44-4769-883b-70447b90c12b
+https://files.fivemerr.com/videos/533ab5ec-7d44-4769-883b-70447b90c12b.mp4
 
-(Note: If the video above doesn't load, you can view it directly here)
 
 📜 Credits & Disclaimer
 
@@ -24,7 +18,7 @@ This script is not my original work.
 
 🛠 Configuration Guide
 
-All primary settings are located at the top of the cl_repair.lua file.
+All primary settings are located at the top of the main.lua file in clinet folder.
 
 1️⃣ How to Change or Add Locations
 
@@ -54,7 +48,7 @@ The map icon is controlled by the SetBlipSprite function.
 
 Find the line: SetBlipSprite(blip, 402)
 
-Replace 402 with a different ID from the GTAV Blip List.
+Replace 402 with a different ID from the (https://docs.fivem.net/docs/game-references/blips/) List.
 
 402: Wrench (Current)
 
@@ -83,8 +77,7 @@ interact-sound (For the repair audio)
 
 Drag and drop the folder into your resources directory.
 
-Ensure your sound file (car_repair.ogg) is placed in the interact-sound resource.
-
+Ensure your sound file (car_repair.ogg) is placed in the interact-sound resource  ( resources/[standalone]/interact-sound/client/html/sound )
 Add ensure [resource_name] to your server.cfg.
 
-<p align="center"><i>Maintained as a community patch.</i></p>
+
